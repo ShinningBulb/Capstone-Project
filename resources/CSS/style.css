@@ -1,0 +1,160 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* __________________________________________________________________________ */
+/* NAVBAR (top bar) */
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  width: 100%;
+  background-color: hsla(360, 100%, 22%, 0.95);
+  font-family: 'Francois One', sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 1.5rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  height: 2.7rem;
+  width: auto;
+}
+
+.logo #colmar {
+  text-decoration: overline;
+}
+
+.logo #academy {
+  color: hsla(360, 0%, 93%, 0.96);
+  text-decoration: underline
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 0.5rem;
+  width: auto;
+  height: 2rem;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+nav .nav-elements {
+  border-right: 2px solid black;
+}
+
+nav a:hover {
+  color: white;
+  font-weight: bold;
+  transition: color 0.2s linear;
+}
+/* __________________________________________________________________________ */
+/* PAGE ONE */
+.page-one {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 4rem;
+  height: 52.932625;
+  width: 100%;
+  background-color: white;
+}
+
+/* LEFT SIDE */
+.page-one .left-side {
+  margin: 1.5rem 1.5rem 2rem 1.5rem;
+  height: auto;
+  width: 60%;
+}
+
+.page-one .left-side img{
+  width: 100%;
+  height: 100%;
+}
+
+/* RIGHT SIDE */
+.page-one .right-side {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 24.5rem;
+  width: 26.8rem;
+  font-family: 'Patua One', cursive;
+  padding: 15rem 0;
+}
+
+.page-one h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.05rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.page-one p {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.page-one .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: hsla(360, 100%, 22%, 0.95);
+  text-align: center;
+  height: 3rem;
+}
+
+.page-one .button a {
+  padding: 0.5rem 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+.page-one .button a:hover {
+  color: black;
+}
+/* __________________________________________________________________________ */
+.page-two {
+  border: 1px solid black;
+  height: auto;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: white;
+}
+
+.page-two .left-side {
+  height: auto;
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.page-two .left-side img {
+  width: 100%;
+  height: 100%;
+}
